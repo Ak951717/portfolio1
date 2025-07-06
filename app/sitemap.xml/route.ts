@@ -40,11 +40,11 @@
 import { MetadataRoute } from 'next';
 
 export const GET = async () => {
-  const baseUrl = 'http://localhost:3000';
+  const baseUrl = process.env.NEXT_PUBLIC_BASE_URL
 
   const sitemap: MetadataRoute.Sitemap = [
     {
-      url: baseUrl,
+      url: `${baseUrl}`,
       lastModified: new Date(),
       changeFrequency: 'weekly',
       priority: 1,
