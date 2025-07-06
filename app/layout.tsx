@@ -28,14 +28,14 @@ export const metadata: Metadata = {
     address: false,
     telephone: false,
   },
-  metadataBase: new URL('http://localhost:3000'),
+  metadataBase: new URL(`${process.env.NEXT_PUBLIC_BASE_URL}`),
   alternates: {
     canonical: '/',
   },
   openGraph: {
     title: 'Sarah Lee | Lifestyle & Travel Creator',
     description: 'Professional lifestyle and travel content creator helping brands tell their story through creative visual content.',
-    url: 'http://localhost:3000',
+    url: `${process.env.NEXT_PUBLIC_BASE_URL}`,
     siteName: 'Sarah Lee',
     images: [
       {
@@ -90,8 +90,8 @@ export default function RootLayout({
               name: 'Sarah Lee',
               jobTitle: 'Lifestyle & Travel Content Creator',
               description: 'Professional lifestyle and travel content creator helping brands tell their story through creative visual content.',
-              url: 'https://sarahlee.com',
-              image: 'https://sarahlee.com/og-image.jpg',
+              url: `${process.env.NEXT_PUBLIC_BASE_URL}`,
+              image: `${process.env.NEXT_PUBLIC_BASE_URL}/og-image.jpg`,
               sameAs: [
                 'https://instagram.com/sarahlee',
                 'https://tiktok.com/@sarahlee',
