@@ -1,12 +1,21 @@
 import { Metadata } from "next";
 
 export const metadata:Metadata = {
-  title: "Muhammad Ahmed Khan | Full Stack Developer",
-  description: "Creating modern, powerful, AI-driven web apps for global clients in USA, UK, Canada, Dubai.",
+  title: "Muhammad Ahmed Khan | Full Stack Developer | Agentic Developer | Agentic Dev | AgenticDev " ,
+  description: "Creating modern, powerful, AI-driven, Agentic web apps for global clients in USA, UK, Canada, Dubai.",
   keywords: [
+    "Agentic Dev",
+    "AgenticDev",
+    "Agentic webapp",
+    "Agentic website",
+    "Ai Agentic Dev",
+    "AiAgenticDev",
+    "Ai Agentic webapp",
+    "Ai Agentic website",
     "Full Stack Developer",
     "Web Developer",
     "Agentic developer",
+    "Ai Agentic developer",
     "Ai developer",
     "Next.js Portfolio",
     "Frontend Developer",
@@ -14,8 +23,8 @@ export const metadata:Metadata = {
     "Muhammad Ahmed Portfolio"
   ],
   openGraph: {
-    title: "Muhammad Ahmed Khan | Full Stack Developer",
-    description: "Static portfolio site built with Next.js 15 and TailwindCSS, optimized for $5k–$10k international clients.",
+    title: "Muhammad Ahmed Khan | Full Stack Developer | Agentic Developer | Agentic Dev | AgenticDev",
+    description: "Ai Agentic Webapp built with Next.js 15, Openai, Gemini, Groq, LangChain, Langgraph and TailwindCSS, optimized for $5k–$10k international clients.",
     url: "https://agenticdev.site",
     siteName: "Agentic Dev",
     images: [
@@ -38,8 +47,8 @@ export const metadata:Metadata = {
 export default function Head() {
   return (
     <>
-      <title>Muhammad Ahmed Khan | Full Stack Developer</title>
-      <meta name="description" content="I build high-end web apps for international clients using Next.js, AI, TailwindCSS. USA, UK, Canada, Dubai clients welcome." />
+      <title>Muhammad Ahmed Khan | Full Stack Developer | Agentic Developer | Agentic Dev | AgenticDev</title>
+      <meta name="description" content="I build high-end Ai Agentic web apps for international clients using Next.js, AI, LangChain, Langgraph, Openai, Gemini, TailwindCSS. USA, UK, Canada, Dubai clients welcome." />
       <meta name="viewport" content="width=device-width, initial-scale=1" />
       <meta name="robots" content="index, follow" />
       <meta name="author" content="Muhammad Ahmed Khan" />
@@ -47,8 +56,8 @@ export default function Head() {
       <link rel="icon" href="/favicon.ico" />
 
       {/* OG Meta Tags */}
-      <meta property="og:title" content="Muhammad Ahmed Khan | Full Stack Web Developer" />
-      <meta property="og:description" content="Static portfolio of a $5k-$10k web app specialist using Next.js & TailwindCSS." />
+      <meta property="og:title" content="Muhammad Ahmed Khan | Full Stack Web Developer | Agentic Developer | Agentic Dev | AgenticDev" />
+      <meta property="og:description" content="Ai Agentic web apps of a $5k-$10k web app specialist using Next.js, LangChain, Langgraph, Openai, Gemini & TailwindCSS." />
       <meta property="og:image" content="https://agenticdev.site/og-image.jpg" />
       <meta property="og:url" content="https://agenticdev.site" />
       <meta property="og:type" content="website" />
