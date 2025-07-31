@@ -1,15 +1,15 @@
 import { Metadata } from "next";
 
 export const metadata:Metadata = {
-  title: "Muhammad Ahmed Khan | Full Stack Developer | Agentic Developer | Agentic Dev | AgenticDev " ,
+  title: "AgenticDev | Agentic Dev | Agentic Developer | Muhammad Ahmed Khan | Full Stack Developer " ,
   description: "Creating modern, powerful, AI-driven, Agentic web apps for global clients in USA, UK, Canada, Dubai.",
   keywords: [
-    "Agentic Dev",
     "AgenticDev",
+    "Agentic Dev",
     "Agentic webapp",
     "Agentic website",
-    "Ai Agentic Dev",
     "AiAgenticDev",
+    "Ai Agentic Dev",
     "Ai Agentic webapp",
     "Ai Agentic website",
     "Full Stack Developer",
@@ -23,7 +23,7 @@ export const metadata:Metadata = {
     "Muhammad Ahmed Portfolio"
   ],
   openGraph: {
-    title: "Muhammad Ahmed Khan | Full Stack Developer | Agentic Developer | Agentic Dev | AgenticDev",
+    title: "AgenticDev | Agentic Dev | Agentic Developer | Muhammad Ahmed Khan | Full Stack Developer ",
     description: "Ai Agentic Webapp built with Next.js 15, Openai, Gemini, Groq, LangChain, Langgraph and TailwindCSS, optimized for $5k–$10k international clients.",
     url: "https://agenticdev.site",
     siteName: "Agentic Dev",
@@ -47,7 +47,7 @@ export const metadata:Metadata = {
 export default function Head() {
   return (
     <>
-      <title>Muhammad Ahmed Khan | Full Stack Developer | Agentic Developer | Agentic Dev | AgenticDev</title>
+      <title>AgenticDev | Agentic Dev | Agentic Developer |  Muhammad Ahmed Khan | Full Stack Developer  </title>
       <meta name="description" content="I build high-end Ai Agentic web apps for international clients using Next.js, AI, LangChain, Langgraph, Openai, Gemini, TailwindCSS. USA, UK, Canada, Dubai clients welcome." />
       <meta name="viewport" content="width=device-width, initial-scale=1" />
       <meta name="robots" content="index, follow" />
@@ -56,7 +56,7 @@ export default function Head() {
       <link rel="icon" href="/favicon.ico" />
 
       {/* OG Meta Tags */}
-      <meta property="og:title" content="Muhammad Ahmed Khan | Full Stack Web Developer | Agentic Developer | Agentic Dev | AgenticDev" />
+      <meta property="og:title" content=" AgenticDev | Agentic Dev | Muhammad Ahmed Khan | Full Stack Web Developer | Agentic Developer   " />
       <meta property="og:description" content="Ai Agentic web apps of a $5k-$10k web app specialist using Next.js, LangChain, Langgraph, Openai, Gemini & TailwindCSS." />
       <meta property="og:image" content="https://agenticdev.site/og-image.jpg" />
       <meta property="og:url" content="https://agenticdev.site" />
@@ -68,8 +68,8 @@ export default function Head() {
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
             "@context": "https://schema.org",
-            "@type": "Person",
-            name: "Muhammad Ahmed Khan",
+            "@type": "Organization",
+            name: "AgenticDev",
             url: "https://agenticdev.site",
             image: "https://agenticdev.site/profile.jpg", // Make sure this exists!
             jobTitle: "Full Stack Web Developer",
