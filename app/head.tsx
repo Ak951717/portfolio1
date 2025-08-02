@@ -53,8 +53,18 @@ export default function Head() {
       <meta name="robots" content="index, follow" />
       <meta name="author" content="Muhammad Ahmed Khan" />
       <link rel="canonical" href="https://agenticdev.site" />
+      {/* <link rel="icon" href="/favicon.ico" /> */}
+                  
+        {/* Favicon & App Icons */}
+      <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+      <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+      <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
       <link rel="icon" href="/favicon.ico" />
-
+      <link rel="manifest" href="/site.webmanifest" />
+      <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5" />
+      <meta name="msapplication-TileColor" content="#ffffff" />
+      <meta name="theme-color" content="#ffffff" />
+            
       {/* OG Meta Tags */}
       <meta property="og:title" content=" AgenticDev | Agentic Dev | Muhammad Ahmed Khan | Full Stack Web Developer | Agentic Developer   " />
       <meta property="og:description" content="Ai Agentic web apps of a $5k-$10k web app specialist using Next.js, LangChain, Langgraph, Openai, Gemini & TailwindCSS." />
@@ -72,7 +82,7 @@ export default function Head() {
             name: "AgenticDev",
             url: "https://agenticdev.site",
             image: "https://agenticdev.site/profile.jpg", // Make sure this exists!
-            jobTitle: "Full Stack Web Developer",
+            jobTitle: "Ai Agentic Full Stack Web Developer",
             sameAs: [
               "https://github.com/YOUR_USERNAME",
               "https://linkedin.com/in/YOUR_PROFILE",
