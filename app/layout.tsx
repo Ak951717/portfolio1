@@ -1,6 +1,7 @@
 import './globals.css';
 import type { Metadata, Viewport } from 'next';
 import { Inter } from 'next/font/google';
+import Head from 'next/head';
 
 const inter = Inter({ 
   subsets: ['latin'],
@@ -69,7 +70,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className="scroll-smooth">
-       <head>
+       <Head>
            <title>AgenticDev | Agentic Dev | Agentic Developer |  Muhammad Ahmed Khan | Full Stack Developer  </title>
       <meta name="description" content="I build high-end Ai Agentic web apps for international clients using Next.js, AI, LangChain, Langgraph, Openai, Gemini, TailwindCSS. USA, UK, Canada, Dubai clients welcome." />
       {/* <meta name="viewport" content="width=device-width, initial-scale=1" /> */}
@@ -113,7 +114,7 @@ export default function RootLayout({
           }),
         }}
       />
-      </head>
+      </Head>
       <body className={`${inter.variable} font-sans antialiased bg-gray-950 text-white`}>
         {children}
       </body>
