@@ -27,7 +27,7 @@ export const metadata: Metadata = {
   robots: "index, follow",
   
   alternates: {
-    canonical: "https://agenticdev.site",
+    canonical: "https://agenticdev.site/",
   },
   icons: {
     icon: [
@@ -45,7 +45,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "AgenticDev | Muhammad Ahmed Khan | Full Stack Developer",
     description: "Ai Agentic Webapp built with Next.js 15, LangChain, Langgraph, Openai, Gemini, TailwindCSS. For $5k–$10k clients.",
-    url: "https://agenticdev.site",
+    url: "https://agenticdev.site/",
     siteName: "Agentic Dev",
     images: [
       {
@@ -71,16 +71,16 @@ export default function RootLayout({
   return (
     <html lang="en" className="scroll-smooth">
        <Head>
-           <title>AgenticDev | Agentic Dev | Agentic Developer |  Muhammad Ahmed Khan | Full Stack Developer  </title>
-      <meta name="description" content="I build high-end Ai Agentic web apps for international clients using Next.js, AI, LangChain, Langgraph, Openai, Gemini, TailwindCSS. USA, UK, Canada, Dubai clients welcome." />
+           {/* <title>AgenticDev | Agentic Dev | Agentic Developer |  Muhammad Ahmed Khan | Full Stack Developer  </title> */}
+      {/* <meta name="description" content="I build high-end Ai Agentic web apps for international clients using Next.js, AI, LangChain, Langgraph, Openai, Gemini, TailwindCSS. USA, UK, Canada, Dubai clients welcome." /> */}
       {/* <meta name="viewport" content="width=device-width, initial-scale=1" /> */}
-      <meta name="robots" content="index, follow" />
-      <meta name="author" content="Muhammad Ahmed Khan" />
-      <link rel="canonical" href="https://agenticdev.site" />
+      {/* <meta name="robots" content="index, follow" /> */}
+      {/* <meta name="author" content="Muhammad Ahmed Khan" /> */}
+      {/* <link rel="canonical" href="https://agenticdev.site" /> */}
       {/* <link rel="icon" href="/favicon.ico" /> */}
                   
         {/* Favicon & App Icons */}
-      <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+      {/* <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
       <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
       <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
       <link rel="icon" href="/favicon.ico" />
@@ -90,11 +90,11 @@ export default function RootLayout({
       {/* <meta name="theme-color" content="#ffffff" /> */}
             
       {/* OG Meta Tags */}
-      <meta property="og:title" content=" AgenticDev | Agentic Dev | Muhammad Ahmed Khan | Full Stack Web Developer | Agentic Developer   " />
-      <meta property="og:description" content="Ai Agentic web apps of a $5k-$10k web app specialist using Next.js, LangChain, Langgraph, Openai, Gemini & TailwindCSS." />
-      <meta property="og:image" content="https://agenticdev.site/og-image.jpg" />
-      <meta property="og:url" content="https://agenticdev.site" />
-      <meta property="og:type" content="website" />
+      {/* <meta property="og:title" content=" AgenticDev | Agentic Dev | Muhammad Ahmed Khan | Full Stack Web Developer | Agentic Developer   " /> */}
+      {/* <meta property="og:description" content="Ai Agentic web apps of a $5k-$10k web app specialist using Next.js, LangChain, Langgraph, Openai, Gemini & TailwindCSS." /> */}
+      {/* <meta property="og:image" content="https://agenticdev.site/og-image.jpg" /> */}
+      {/* <meta property="og:url" content="https://agenticdev.site" /> */}
+      {/* <meta property="og:type" content="website" /> */} 
       
        {/* Structured Data */}
       <script
