@@ -1,7 +1,7 @@
 import './globals.css';
 import type { Metadata, Viewport } from 'next';
 import { Inter } from 'next/font/google';
-import Head from 'next/head';
+import Script from 'next/script';
 
 const inter = Inter({ 
   subsets: ['latin'],
@@ -17,13 +17,10 @@ export const viewport: Viewport = {
 };
 
 export const metadata: Metadata = {
-  title: "AgenticDev | Agentic Dev | Agentic Developer | Muhammad Ahmed Khan | Full Stack Developer",
-  description: "I build high-end Ai Agentic web apps for international clients using Next.js, AI, LangChain, Langgraph, Openai, Gemini, TailwindCSS. USA, UK, Canada, Dubai clients welcome.",
+  title: "AgenticDev | Full Stack AI Agentic Developer - Muhammad Ahmed Khan",
+  description: "Building high-end AI Agentic web apps with Next.js, LangChain & OpenAI. Helping USA, UK, Canada & Dubai businesses with $5k–$10k solutions.",
   authors: [{ name: "Muhammad Ahmed Khan" }],
-  keywords: [
-    "AgenticDev", "Agentic Dev", "Ai Agentic webapp", "Full Stack Developer",
-    "React Developer", "Next.js Developer", "LangChain", "Gemini", "OpenAI", "TailwindCSS"
-  ],
+  keywords: ["AI Agentic Web Apps", "Full Stack Developer", "Next.js AI Developer", "LangChain Developer", "OpenAI Developer", "USA UK Dubai Web Apps"],
   robots: "index, follow",
   
   alternates: {
@@ -43,8 +40,8 @@ export const metadata: Metadata = {
   manifest: "/site.webmanifest",
  
   openGraph: {
-    title: "AgenticDev | Muhammad Ahmed Khan | Full Stack Developer",
-    description: "Ai Agentic Webapp built with Next.js 15, LangChain, Langgraph, Openai, Gemini, TailwindCSS. For $5k–$10k clients.",
+    title: "AgenticDev | Premium AI Agentic Web Apps by Muhammad Ahmed Khan",
+    description: "AgenticDev – Premium AI Web Apps | Next.js, LangChain, OpenAI",
     url: "https://agenticdev.site/",
     siteName: "Agentic Dev",
     images: [
@@ -70,7 +67,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className="scroll-smooth">
-       <Head>
+      
            {/* <title>AgenticDev | Agentic Dev | Agentic Developer |  Muhammad Ahmed Khan | Full Stack Developer  </title> */}
       {/* <meta name="description" content="I build high-end Ai Agentic web apps for international clients using Next.js, AI, LangChain, Langgraph, Openai, Gemini, TailwindCSS. USA, UK, Canada, Dubai clients welcome." /> */}
       {/* <meta name="viewport" content="width=device-width, initial-scale=1" /> */}
@@ -97,14 +94,15 @@ export default function RootLayout({
       {/* <meta property="og:type" content="website" /> */} 
       
        {/* Structured Data */}
-      <script
+      <Script
+        id="jsonld-org"
         type="application/ld+json"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
             "@context": "https://schema.org",
-            "@type": "Organization",
+            "@type": "Person",
             name: "AgenticDev",
-            url: "https://agenticdev.site",
+            url: "https://agenticdev.site/",
             image: "https://agenticdev.site/profile.jpg", // Make sure this exists!
             jobTitle: "Ai Agentic Full Stack Web Developer",
             sameAs: [
@@ -114,7 +112,7 @@ export default function RootLayout({
           }),
         }}
       />
-      </Head>
+     
       <body className={`${inter.variable} font-sans antialiased bg-gray-950 text-white`}>
         {children}
       </body>

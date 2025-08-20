@@ -111,16 +111,22 @@ export function About() {
         
         <div ref={textRef} className="max-w-3xl mx-auto text-center mb-16">
           <p className="text-lg text-gray-300 leading-relaxed mb-6">
-            I'm a passionate full-stack developer with over 5 years of experience creating 
-            digital solutions that make a difference. My journey in web development started 
-            with a curiosity for how things work and evolved into a deep love for crafting 
-            elegant, user-centric applications.
-          </p>
+  I'm Muhammad Ahmed Khan, a passionate <strong>Full-Stack Developer</strong> and 
+  <strong> AI Agentic web app specialist</strong> with over 5 years of experience 
+  building high-end solutions for <strong>international clients</strong>.  
+  My journey began with curiosity for web technologies and evolved into a 
+  dedication to crafting <strong>Next.js, React, and AI-powered applications </strong> 
+   that deliver real impact.
+</p>
+
           <p className="text-lg text-gray-300 leading-relaxed">
-            I specialize in modern JavaScript frameworks, cloud technologies, and agile 
-            methodologies. When I'm not coding, you'll find me exploring new technologies, 
-            contributing to open-source projects, or mentoring aspiring developers.
-          </p>
+  I specialize in <strong>Next.js, React, TypeScript, and TailwindCSS</strong> for 
+  frontend, with <strong>Python, FastApi, LangChain, LangGraph, OpenAI, and Gemini</strong> for 
+  <strong> AI integrations</strong>. I work with modern cloud platforms and agile 
+  methodologies to deliver robust solutions. When I'm not coding, I explore emerging 
+  technologies, contribute to open-source, and mentor aspiring developers.
+</p>
+
         </div>
 
         <div ref={cardsRef} className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">

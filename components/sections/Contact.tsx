@@ -223,11 +223,13 @@ export function Contact() {
             <div className="glass-effect border-gray-700 rounded-lg p-6">
               <h4 className="text-lg font-semibold mb-3 text-white">Let's Work Together</h4>
               <p className="text-gray-400 text-sm leading-relaxed">
-                I'm always interested in new opportunities and exciting projects. 
-                Whether you're a startup looking to build your first product or an 
-                established company wanting to modernize your tech stack, let's discuss 
-                how we can work together.
-              </p>
+  I’m always open to building <strong>Next.js & AI agentic web apps </strong> 
+  for global clients. Whether you’re a <strong>startup in Dubai, USA, or UK </strong> 
+  looking for your first product, or an enterprise aiming to modernize with 
+  <strong> scalable full-stack solutions</strong>, let’s collaborate and create 
+  something impactful together.
+</p>
+
             </div>
           </div>
         </div>

@@ -73,10 +73,18 @@ export function Skills() {
       color: "from-purple-500 to-pink-500"
     },
     {
-      title: "Tools",
-      skills: ["Git", "VS Code", "Figma", "Postman", "Linear"],
-      color: "from-orange-500 to-red-500"
-    }
+  title: "AI & Agentic",
+  skills: [
+    "LangChain",
+    "LangGraph",
+    "OpenAI API",
+    "Gemini",
+    "AI Agents",
+    "Vector Databases (Weaviate, Pinecone)"
+  ],
+  color: "from-orange-500 to-red-500"
+}
+
   ];
 
   return (

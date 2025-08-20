@@ -89,12 +89,15 @@ export function Hero() {
         </h1>
         
         <p 
-          ref={subtitleRef}
-          className="text-lg sm:text-xl text-gray-400 mb-8 max-w-2xl mx-auto leading-relaxed"
-        >
-          Crafting exceptional digital experiences with modern technologies. 
-          Specializing in React, Next.js, and scalable web applications that drive business growth.
-        </p>
+  ref={subtitleRef}
+  className="text-lg sm:text-xl text-gray-400 mb-8 max-w-2xl mx-auto leading-relaxed"
+>
+  I build high-end <strong>AI Agentic web apps</strong> using 
+  <strong> Next.js, React, TailwindCSS, Python, LangChain, LangGraph, OpenAI, and Gemini</strong>.  
+  Delivering <strong>full-stack development</strong> solutions for international clients 
+  in <strong>USA, UK, Canada, and Dubai</strong>, focused on scalability and business growth.
+</p>
+
         
         <div ref={buttonsRef} className="flex flex-col sm:flex-row gap-4 justify-center items-center">
           <Button 
