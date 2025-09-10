@@ -112,8 +112,8 @@ export function Contact() {
   ];
 
   const socialLinks = [
-    { icon: <Github className="w-6 h-6" />, href: "#", label: "GitHub" },
-    { icon: <Linkedin className="w-6 h-6" />, href: "#", label: "LinkedIn" },
+    { icon: <Github className="w-6 h-6" />, href: "https://github.com/Ak951717", label: "GitHub" },
+    { icon: <Linkedin className="w-6 h-6" />, href: "https://www.linkedin.com/in/ayatic-agency-74741a381/?originalSubdomain=pk", label: "LinkedIn" },
     { icon: <Twitter className="w-6 h-6" />, href: "#", label: "Twitter" },
   ];
 
